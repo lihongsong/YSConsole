@@ -7,6 +7,7 @@
 //
 
 #import "YSViewController.h"
+#import "YSConsole_Example-Swift.h"
 
 @interface YSViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self _logSomething];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +27,19 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+- (void)_logSomething {
+    
+    printf("[DEBUG] printf");
+
+    printf("[DEBUG] printf\n");
+    NSLog(@"[DEBUG] NSLog");
+    
+    
+    [HJAAA log];
 }
 
 @end

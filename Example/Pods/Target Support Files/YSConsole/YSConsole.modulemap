@@ -1,0 +1,6 @@
+framework module YSConsole {
+  umbrella header "YSConsole-umbrella.h"
+
+  export *
+  module * { export * }
+}

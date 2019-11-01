@@ -1,0 +1,6 @@
+framework module Pods_YSConsole_Example {
+  umbrella header "Pods-YSConsole_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

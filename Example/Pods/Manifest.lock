@@ -1,0 +1,23 @@
+PODS:
+  - fishhook (0.2)
+  - YSConsole (0.1.0):
+    - fishhook
+
+DEPENDENCIES:
+  - YSConsole (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - fishhook
+
+EXTERNAL SOURCES:
+  YSConsole:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  YSConsole: 6427581de1893b2228d26033ca5230f550d996b3
+
+PODFILE CHECKSUM: cedf043a159d708b9774d781e0ea1a2c7f9a571a
+
+COCOAPODS: 1.6.0

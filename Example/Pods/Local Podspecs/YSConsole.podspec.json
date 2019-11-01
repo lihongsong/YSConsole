@@ -1,0 +1,27 @@
+{
+  "name": "YSConsole",
+  "version": "0.1.0",
+  "summary": "A short description of YSConsole.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/357997194@qq.com/YSConsole",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "357997194@qq.com": "lihs@2345.com"
+  },
+  "source": {
+    "git": "https://github.com/357997194@qq.com/YSConsole.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YSConsole/Classes/**/*",
+  "dependencies": {
+    "fishhook": [
+
+    ]
+  }
+}
